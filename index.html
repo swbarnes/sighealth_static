@@ -37,7 +37,7 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="#">Home</a></li>
 							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="#contactModal"  data-toggle="modal">Contact</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div><!--/.container-->
@@ -61,7 +61,7 @@
 							</div><!--/.phone-->
 						</div><!--/.call-now-->
 
-						<p><a class="btn btn-lg btn-danger" href="#">Email us &raquo;</a></p>
+						<p><button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#contactModal">Email us &raquo;</button></p>
 
 					</div><!--/.col-->
 				</div><!--/.row-->
@@ -202,7 +202,7 @@
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<h2>Are you ready healthcare the way it <strong>should</strong> be?</h2>
-						<p><a href="#" class="btn btn-lg btn-block btn-success">Yes, contact me for a no cost consultation!</a></p>
+						<p><button class="btn btn-lg btn-block btn-success" data-toggle="modal" data-target="#contactModal">Yes, contact me for a no cost consultation!</button></p>
 					</div><!--/.col-->
 				</div><!--/.row-->
 			</div><!--/.container-->
@@ -225,8 +225,7 @@
 							<ul class="list-unstyled">
 								<li><a href="#">Home</a></li>
 								<li><a href="#">About</a></li>
-								<li><a href="#">Contact</a></li>
-								<li class="sign-up-link"><a href="#">No Cost Consultation</a></li>
+								<li><a href="#contactModal"  data-toggle="modal">Contact</a></li>
 							</ul>
 						</nav>
 					</div><!--/.col-->
@@ -264,6 +263,53 @@
 				</div><!--/.row-->
 			</div><!--/.container-->
 		</footer>
+
+		<!-- Contact Modal -->
+		<div class="modal fade" id="contactModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true">&times;</span>
+							<span class="sr-only">Close</span>
+						</button>
+						<h4 class="modal-title" id="opt-inModalLabel">
+							<i class="fa fa-envelope"></i> Contact us by Email
+						</h4>
+					</div><!--/.modal-header-->
+
+					<div class="modal-body">
+						<p>Simply enter your name, email, and a message. Please leave a phone number if you would like a call back from our office.</em></p>
+						<form role="form">
+							<div class="form-group">
+								<label class="sr-only" for="contact-name">Your name</label>
+								<input type="text" class="form-control" id="contact-name" placeholder="Your name">
+							</div><!--/.form-group-->
+							<div class="form-group">
+								<label class="sr-only" for="contact-email">Your email</label>
+								<input type="text" class="form-control" id="contact-email" placeholder="Your email">
+							</div><!--/.form-group-->
+							<div class="form-group">
+								<label class="sr-only" for="contact-phone">Your phone number</label>
+								<input type="text" class="form-control" id="contact-phone" placeholder="Your phone number">
+							</div><!--/.form-group-->
+							<div class="form-group">
+								<label class="sr-only" for="contact-message">Your message</label>
+								<textarea class="form-control input-lg" id="contact-message" placeholder="Your message" rows="3"></textarea>
+							</div><!--/.form-group-->
+
+							<input type="submit" class="btn btn-danger" value="Send">
+
+							<hr>
+
+							<p><small>Your privacy is important to us. Please do not send any sensitive medical information with this form. We cannot guarantee your information will be privileged and confidential.</small></p>
+						</form>
+					</div><!--/.modal-body-->
+
+				</div><!--/.modal-content-->
+			</div><!--/.modal-dialog-->
+		</div><!--/#contactModal-->
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

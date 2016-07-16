@@ -22,3 +22,36 @@ h1, h2, h3, h4, h5, h6 {
 	text-rendering: optimizelegibility;
 	font-weight: bold;
 }
+
+h1 {
+	font-size: 3em;
+}
+
+h1, h2 {
+	margin: 0 0 40px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p {
+	margin: 0 0 15px;
+}
+
+p.lead {
+	font-weight: normal;
+}
+
+/* Hero Section */
+
+#hero {
+	background: url('../img/hero-bg.jpg') 73% 0% no-repeat fixed;
+	min-height: 500px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}

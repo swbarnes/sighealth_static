@@ -56,7 +56,17 @@ img {
 #hero {
 	background: url('../img/hero-bg.jpg') 73% 0% no-repeat fixed;
 	background-size: cover;
+	color: #000000;
 	min-height: 500px;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+}
+
+#hero .hero-subtitle {
+	margin: 0 0 30px;
+}
+
+#hero .hero-subtitle span{
+	display: block;
+	padding: 0 0 10px;
 }

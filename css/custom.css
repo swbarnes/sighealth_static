@@ -51,6 +51,13 @@ img {
 	max-width: 100%;
 }
 
+.btn {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+}
+
 /* Hero Section */
 
 #hero {

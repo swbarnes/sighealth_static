@@ -47,6 +47,10 @@ p.lead {
 	font-weight: normal;
 }
 
+img {
+	max-width: 100%;
+}
+
 /* Hero Section */
 
 #hero {

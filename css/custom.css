@@ -51,6 +51,7 @@ p.lead {
 
 #hero {
 	background: url('../img/hero-bg.jpg') 73% 0% no-repeat fixed;
+	background-size: cover;
 	min-height: 500px;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;

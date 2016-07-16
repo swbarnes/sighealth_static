@@ -70,3 +70,83 @@ img {
 	display: block;
 	padding: 0 0 10px;
 }
+
+#hero .hero-text {
+	font-size: 22px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+#call-now {
+	margin: 30px 0 60px;
+	text-align: center;
+}
+
+#call-now .phone {
+	display: inline-block;
+	margin: 0 2% 0 0;
+	width: 60%;
+	background: #7F7B6C;
+	color: #fff;
+	padding: 50px 20px 10px;
+	position: relative;
+	vertical-align: top;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+#call-now .phone h4 {
+	background: #5c1315;
+	display: block;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 24px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	margin-left: -35px;
+}
+
+#call-now .phone span.tel {
+	display: inline-block;
+	padding: 0 0 10px;
+	font-size: 36px;
+}
+
+#call-now .office-hours {
+	font-size: 20px;
+}
+
+#call-now .office-hours .days {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,12 +5,14 @@
  * True Red: #8f1d21;
  * Brewed Mustard Brown: e68364;
  * Cream Can: f5d76e;
- * Lighter Cream: f7e9b9;
+ * Lighter Cream: #fffcf1;
  *
 */
 
 /* General */
 body {
 	margin-top: 50px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Neuton', Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #fffcf1;
 }

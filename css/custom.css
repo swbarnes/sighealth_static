@@ -8,6 +8,7 @@
  * True Red: #8f1d21;
  * Light Cream: #fffcf1;
  * Dark Cream: #fff6d8;
+ * Darker Cream: #e5ddc2;
  *
 */
 
@@ -16,7 +17,7 @@ body {
 	margin-top: 50px;
 	font-family: 'Neuton', Helvetica, sans-serif;
 	font-size: 18px;
-	background-color: #fffcf1;
+	background-color: #fff6d8;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,6 +79,7 @@ img {
 	background-size: cover;
 	color: #000000;
 	min-height: 500px;
+	margin-bottom: 0;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
@@ -174,7 +176,14 @@ section h3 {
 	margin: 30px 0 10px;
 }
 
+.well-tan {
+	background-color: #e5ddc2;
+}
 
+.well-red {
+	background-color: #5c1315;
+	color: #ffffff;
+}
 
 
 

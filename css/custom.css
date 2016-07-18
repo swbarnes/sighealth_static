@@ -203,7 +203,13 @@ section h3 {
 	margin: 50px 0 0;
 }
 
+#doctor {
+	background: url('../img/doctor-example.png') 90% 5px no-repeat;
+}
 
+#doctor h2 {
+	margin: 0 0 20px;
+}
 
 
 

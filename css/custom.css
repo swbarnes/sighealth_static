@@ -212,7 +212,29 @@ section h3 {
 	margin: 0 0 20px;
 }
 
+#sign-up {
+	background: url('../img/doctor-bag.jpg') center center repeat fixed ;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	padding: 140px 0;
+}
 
+#sign-up-overlay {
+		background: rgba(0, 0, 0, 0.4);
+}
+
+#sign-up h2 {
+	font-weight: normal;
+}
+
+#sign-up h2 strong {
+	border-bottom: solid 2px #8f1d21;
+}
+
+#sign-up .btn {
+	font-size: 18px;
+}
 
 
 

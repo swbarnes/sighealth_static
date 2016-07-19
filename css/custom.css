@@ -210,8 +210,7 @@ section h3 {
 }
 
 #doctor {
-	background: url('../img/doctor-example.png') 92% 5px no-repeat;
-	background-size: contain;
+	background: url('../img/doctor-example.png') 92% 100% no-repeat;
 }
 
 #doctor h2 {

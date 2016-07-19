@@ -55,6 +55,10 @@ img {
 	max-width: 100%;
 }
 
+.modal-header {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
 .btn {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -81,6 +85,8 @@ img {
 	background-color: #fff6d8;
 	border-color: #cbc4ac;
 }
+
+
 
 /* Hero Section */
 
@@ -242,7 +248,16 @@ footer {
 	padding: 40px 0 20px;
 }
 
+/* Forms */
 
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+textarea {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+}
 
 
 

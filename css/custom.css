@@ -221,7 +221,7 @@ section h3 {
 }
 
 #sign-up-overlay {
-		background: rgba(0, 0, 0, 0.4);
+		background: rgba(0, 0, 0, 0.75);
 }
 
 #sign-up h2 {
@@ -234,6 +234,12 @@ section h3 {
 
 #sign-up .btn {
 	font-size: 18px;
+}
+
+footer {
+	background: #5c1315;
+	color: white;
+	padding: 40px 0 20px;
 }
 
 

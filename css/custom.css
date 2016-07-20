@@ -247,6 +247,19 @@ footer {
 	padding: 40px 0 20px;
 }
 
+footer nav li {
+	font-size: 21px;
+}
+
+footer nav a:link, footer nav a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+footer nav a:hover, footer nav a:focus {
+	text-decoration: underline;
+}
+
 /* Forms */
 
 input[type="text"],

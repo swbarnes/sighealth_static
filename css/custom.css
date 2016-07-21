@@ -311,6 +311,11 @@ textarea {
 		background-size: cover;
 	}
 
+	#sign-up {
+		background: url('../img/doctor-bag.jpg') no-repeat top center;
+		background-size: cover;
+	}
+
 }
 
 @media screen and ( max-width : 991px ) {

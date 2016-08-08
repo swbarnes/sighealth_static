@@ -68,8 +68,8 @@ hr.section-divider {
 	margin-top: 0;
 	margin-bottom: 0;
 	border: 0;
-	background: #A08673;
-    background-image: linear-gradient(to right, #fff, #A08673, #fff);
+	background: #ccc;
+    background-image: linear-gradient(to right, #fff, #ccc, #fff);
 }
 
 a:link, a:visited {
@@ -86,31 +86,35 @@ a:hover, a:active {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-.btn {
+button, input, .btn, a.btn {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
-	font-weight: bold;
+}
+
+a.btn {
+	color: #fff;
+	font-weight: normal;
 }
 
 .btn-danger {
-	background-color: #5c1315;
-	border-color: #420e0f;
+	background-color: #345254;
+	border-color: #24393a;
 }
 
 .btn-danger:hover, .btn-danger:focus {
-	background-color: #a82326;
-	border-color: #691618;
+	background-color: #339aa0;
+	border-color: #23696d;
 }
 
-.btn-default {
-	background-color: #f2e9cd;
-	border-color: #a59f8c;
+.btn-info {
+	background-color: #f48551;
+	border-color: #da7748;
 }
 
-.btn-default:hover, .btn-default:focus {
-	background-color: #fff6d8;
-	border-color: #cbc4ac;
+.btn-info:hover, .btn-info:focus {
+	background-color: #b4623c;
+	border-color: #c16940;
 }
 
 /* Navbar */
@@ -122,6 +126,19 @@ a:hover, a:active {
 .navbar li.active a {
 	color: #345254;
 	background-color: #eee;
+}
+
+.navbar-toggle {
+	border: 1px solid #888;
+    border-radius: 4px;
+}
+
+.navbar-toggle:hover, .navbar-toggle:active {
+	background-color: #eee;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #000;
 }
 
 /* Hero Section */
@@ -232,8 +249,8 @@ section h3 {
 }
 
 #member-benefits {
-	background-color: #2b5053;
-	color: #ffffff;
+	background-color: #345254;
+	color: #fff;
 	text-align: center;
 }
 
@@ -268,7 +285,7 @@ section h3 {
 }
 
 #sign-up h2 strong {
-	border-bottom: solid 2px #8f1d21;
+	border-bottom: solid 2px #f48551;
 }
 
 #sign-up .btn {
@@ -292,7 +309,7 @@ footer nav a:link, footer nav a:visited {
 }
 
 footer nav a:hover, footer nav a:focus {
-	text-decoration: underline;
+	color: #439aa0;
 }
 
 footer address .vcard {

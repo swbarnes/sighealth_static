@@ -119,11 +119,10 @@ a:hover, a:active {
 	border-bottom: 1px solid #eee;
 }
 
-.navbar .active {
+.navbar li.active a {
 	color: #345254;
 	background-color: #eee;
 }
-
 
 /* Hero Section */
 

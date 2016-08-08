@@ -10,6 +10,11 @@
  * Dark Cream: #fff6d8;
  * Darker Cream: #f2e9cd;
  * 544134
+ *
+ * Second Color Scheme
+ *
+ * Dark Brown Background: #544134;
+ * Darker Brown: #3a2d24;
 */
 
 /* General */
@@ -96,6 +101,15 @@ hr.section-divider {
 	border-color: #cbc4ac;
 }
 
+/* Navbar */
+.navbar {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+.navbar .active {
+	background-color: #eee;
+}
 
 
 /* Hero Section */
@@ -250,9 +264,10 @@ section h3 {
 }
 
 footer {
-	background: #2b5053;
+	background: #3a2d24;
 	color: white;
-	padding: 40px 0 20px;
+	padding: 32px 0 20px;
+	border-top: 8px solid #544134;
 }
 
 footer nav li {

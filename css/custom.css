@@ -102,7 +102,7 @@ a.btn {
 	border-color: #24393a;
 }
 
-.btn-danger:hover, .btn-danger:focus {
+.btn-danger:hover, .btn-danger:focus, .btn-danger.active.focus, .btn-success.danger:focus, .btn-danger.active:hover, .btn-danger:active.focus, .btn-danger:active:focus, .btn-danger:active:hover, .open>.dropdown-toggle.btn-danger.focus, .open>.dropdown-toggle.btn-danger:focus, .open>.dropdown-toggle.btn-danger:hover {
 	background-color: #339aa0;
 	border-color: #23696d;
 }
@@ -112,7 +112,7 @@ a.btn {
 	border-color: #da7748;
 }
 
-.btn-info:hover, .btn-info:focus {
+.btn-info:hover, .btn-info:focus, .btn-info.active.focus, .btn-success.info:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .open>.dropdown-toggle.btn-info.focus, .open>.dropdown-toggle.btn-info:focus, .open>.dropdown-toggle.btn-info:hover {
 	background-color: #b4623c;
 	border-color: #c16940;
 }

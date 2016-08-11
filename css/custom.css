@@ -271,11 +271,17 @@ section h3 {
 }
 
 #doctor {
-	background: url('../img/doctor-example.png') 92% 100% no-repeat;
+	background: url('../img/drmercer-bg.jpg') 58% 28% no-repeat;
+	min-height: 750px;
 }
 
 #doctor h2 {
 	margin: 0 0 20px;
+}
+
+#doctor .doctor-overlay {
+	background: rgba(255, 255, 255, 0.85);
+	padding: 20px;
 }
 
 #sign-up {
@@ -377,6 +383,10 @@ textarea {
 	header .navbar {
 		font-size: 16px;
 	}
+
+	#doctor {
+		background: url('../img/drmercer-bg.jpg') 47% 28% no-repeat;
+	}
 }
 
 /* iPads */
@@ -458,9 +468,8 @@ textarea {
 		padding: 15px 0;
 	}
 
-	#doctor .container {
-		background: rgba(255, 246, 216, 0.75);
-		padding: 20px;
+	#doctor {
+		background: url('../img/drmercer-bg.jpg') 10% 28% no-repeat;
 	}
 
 }
@@ -481,6 +490,12 @@ textarea {
 
 	p.lead {
 		font-size: 20px;
+	}
+
+
+	#doctor {
+		background: url('../img/drmercer-bg.jpg') 40% 28% no-repeat;
+		min-height: 400px;
 	}
 
 	#sign-up .btn {

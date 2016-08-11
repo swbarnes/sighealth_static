@@ -345,6 +345,21 @@ footer p.copy-text {
 	font-size: 16px;
 }
 
+/* Patient Forms */
+
+table.patient-forms {
+	width: 100%;
+}
+
+table.patient-forms td + td {
+	padding: 10px 0 10px;
+}
+
+table.patient-forms td.patient-form-name {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 /* Forms */
 
 input[type="text"],

@@ -469,7 +469,8 @@ textarea {
 	}
 
 	#doctor {
-		background: url('../img/drmercer-bg.jpg') 10% 28% no-repeat;
+		background: url('../img/drmercer-bg-sm.jpg') center 0 no-repeat;
+		padding-top: 1025px;
 	}
 
 }

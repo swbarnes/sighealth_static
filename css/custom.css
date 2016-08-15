@@ -21,6 +21,7 @@
 
 /* General */
 body {
+	position: relative;
 	margin-top: 50px;
 	font-family: 'Neuton', Helvetica, sans-serif;
 	font-size: 18px;

@@ -389,7 +389,7 @@ textarea {
 	}
 }
 
-/* iPads */
+/* iPads 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
 
 	#hero {
@@ -403,6 +403,7 @@ textarea {
 	}
 
 }
+*/
 
 @media screen and ( max-width : 991px ) {
 
@@ -469,7 +470,7 @@ textarea {
 	}
 
 	#doctor {
-		background: url('../img/drmercer-bg-sm.jpg') center 0 no-repeat;
+		background: url('../img/drmercer-bg-sm.jpg') center -140px no-repeat;
 		padding-top: 1025px;
 	}
 
@@ -495,8 +496,9 @@ textarea {
 
 
 	#doctor {
-		background: url('../img/drmercer-bg.jpg') 40% 28% no-repeat;
-		min-height: 400px;
+		background: url('../img/drmercer-bg-xs.jpg') center top no-repeat;
+		background-size: cover;
+		padding-top: 1325px;
 	}
 
 	#sign-up .btn {
@@ -508,7 +510,7 @@ textarea {
 	}
 }
 
-/* iPhone 6 Plus */
+/* iPhone 6 Plus 
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
 	#hero {
 		background: url('../img/hero-bg.jpg') no-repeat 73% center;
@@ -519,9 +521,9 @@ textarea {
 		background: url('../img/doctor-bag.jpg') no-repeat center center;
 		background-size: cover;
 	}
-}
+}*/
 
-/* iPhone 6 */
+/* iPhone 6
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
 	#hero {
 		background: url('../img/hero-bg.jpg') no-repeat 73% center;
@@ -533,8 +535,9 @@ textarea {
 		background-size: cover;
 	}
 }
+*/
 
-/* iPhone 5/5S */
+/* iPhone 5/5S 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 	#hero {
 		background: url('../img/hero-bg.jpg') no-repeat 73% center;
@@ -546,8 +549,8 @@ textarea {
 		background-size: cover;
 	}
 }
-
-/* iPhone 2G - 4S */
+*/
+/* iPhone 2G - 4S 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	#hero {
 		background: url('../img/hero-bg.jpg') no-repeat 73% center;
@@ -559,3 +562,4 @@ textarea {
 		background-size: cover;
 	}
 }
+*/

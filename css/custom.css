@@ -218,6 +218,7 @@ a.btn {
 }
 
 #call-now .office-hours {
+	display: block;
 	font-size: 20px;
 }
 

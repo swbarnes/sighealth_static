@@ -481,7 +481,7 @@ textarea {
 
 	#doctor {
 		background: url('../img/drmercer-bg-sm.jpg') center top no-repeat;
-		padding-top: 1040px;
+		padding-top: 1060px;
 	}
 
 }
@@ -494,7 +494,7 @@ textarea {
 
 	#hero {
 		background: url('../img/hero-bg-xs.jpg') center 0 no-repeat;
-		min-height: 1000px;
+		min-height: 960px;
 		padding-top: 48px;
 	}
 
@@ -507,7 +507,7 @@ textarea {
 	}
 
 	#call-now {
-		margin: 120px 0 80px;
+		margin: 120px 0 100px;
 	}
 
 
@@ -522,7 +522,7 @@ textarea {
 
 	#doctor {
 		background: url('../img/drmercer-bg-xs.jpg') center top no-repeat;
-		padding-top: 800px;
+		padding-top: 860px;
 	}
 
 	#sign-up .btn {

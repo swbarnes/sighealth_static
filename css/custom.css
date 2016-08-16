@@ -218,7 +218,6 @@ a.btn {
 }
 
 #call-now .office-hours {
-	display: block;
 	font-size: 20px;
 }
 
@@ -342,9 +341,25 @@ footer address .vcard .adr {
 	padding-bottom: 15px;
 }
 
+footer address .vcard .tel span.type {
+	font-style: italic;
+}
+
+footer address .vcard .tel span.value {
+	padding-left: 13px;
+}
+
+footer address .vcard .tel:last-child span.value {
+	padding-left: 30px;
+}
+
 footer address .office-hours {
 	font-size: 21px;
 	padding-top: 10px;
+}
+
+footer address .office-hours span.type{
+	font-style: italic;
 }
 
 footer p.copy-text {

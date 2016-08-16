@@ -145,12 +145,9 @@ a.btn {
 /* Hero Section */
 
 #hero {
-	background: url('../img/hero-bg.jpg') 0% 0% no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+	background: url('../img/hero-bg.jpg') 25% -140px no-repeat;
 	color: #000000;
-	min-height: 500px;
+	min-height: 900px;
 	margin-bottom: 0;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -161,7 +158,9 @@ a.btn {
 }
 
 #hero .hero-subtitle {
-	margin: 0 0 30px;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	margin: 0;
 }
 
 #hero .hero-subtitle span{
@@ -170,13 +169,14 @@ a.btn {
 }
 
 #hero .hero-text {
+	background: rgba(255, 255, 255, 0.7);
+	padding: 20px;
 	font-size: 22px;
 	font-weight: 300;
-	padding-bottom: 15px;
 }
 
 #call-now {
-	margin: 30px 0 60px;
+	margin: 120px 0 100px;
 	text-align: center;
 }
 
@@ -189,9 +189,6 @@ a.btn {
 	padding: 43px 20px 10px;
 	position: relative;
 	vertical-align: top;
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
 }
 
 #call-now .phone h4 {
@@ -385,6 +382,27 @@ textarea {
 		font-size: 16px;
 	}
 
+	#hero {
+		background: url('../img/hero-bg-md.jpg') center 0 no-repeat;
+		min-height: 699px;
+	}
+
+	#hero .hero-subtitle {
+		padding: 20px;
+		margin: 0;
+	}
+
+	#hero .hero-text {
+		padding: 0 20px 20px;
+		font-size: 22px;
+		font-weight: 300;
+	}
+
+	#call-now {
+		margin: 40px 0 40px;
+	}
+
+
 	#doctor {
 		background: url('../img/drmercer-bg.jpg') 47% 28% no-repeat;
 	}
@@ -456,23 +474,23 @@ textarea {
 		font-size: 18px;
 	}
 
-	#hero {
+	/*#hero {
 		padding-top: 96px;
-	}
+	}*/
 
-	#hero .hero-overlay {
+	/*#hero .hero-overlay {
 		background: rgba(255, 255, 255, 0.5);
 		margin-bottom: 20px;
 		padding: 20px 0;
-	}
+	}*/
 
 	#member-benefits .benefit {
 		padding: 15px 0;
 	}
 
 	#doctor {
-		background: url('../img/drmercer-bg-sm.jpg') center -140px no-repeat;
-		padding-top: 1025px;
+		background: url('../img/drmercer-bg-sm.jpg') center top no-repeat;
+		padding-top: 1040px;
 	}
 
 }
@@ -484,8 +502,23 @@ textarea {
 	}
 
 	#hero {
+		background: url('../img/hero-bg-xs.jpg') center 0 no-repeat;
+		min-height: 1000px;
 		padding-top: 48px;
 	}
+
+	#hero .hero-subtitle {
+		padding: 20px;
+	}
+
+	#hero .hero-text {
+		padding: 20px;
+	}
+
+	#call-now {
+		margin: 120px 0 80px;
+	}
+
 
 	#call-now .phone {
 		width: 80%;
@@ -498,8 +531,7 @@ textarea {
 
 	#doctor {
 		background: url('../img/drmercer-bg-xs.jpg') center top no-repeat;
-		background-size: cover;
-		padding-top: 1325px;
+		padding-top: 800px;
 	}
 
 	#sign-up .btn {
